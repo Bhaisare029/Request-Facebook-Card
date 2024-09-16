@@ -11,7 +11,8 @@ body {
 #main {
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 204, 255, 0.61);
+  /* background-color: rgba(0, 204, 255, 0.61); */
+  background-color: rgba(250, 128, 114, 0.589);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,7 +20,7 @@ body {
 #card {
   height: 420px;
   width: 280px;
-  background-color: #fff;
+  background-color: #000;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -38,12 +39,15 @@ body {
 #card h1 {
   font-size: 22px;
   font-family: gilroy;
+  color: #fff;
 }
 #card p {
   font-size: 13px;
   font-family: cursive;
   font-weight: 600;
-  color: rgba(0, 0, 0, 0.685);
+  /* color: rgba(0, 0, 0, 0.685); */
+  color: #fff;
+
 }
 #card h5 {
   font-size: 22px;
